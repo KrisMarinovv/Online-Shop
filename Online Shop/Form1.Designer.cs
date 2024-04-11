@@ -30,29 +30,32 @@ namespace Online_Shop
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.roundControl5 = new Online_Shop.Resources.RoundControl();
-            this.roundControl4 = new Online_Shop.Resources.RoundControl();
-            this.roundControl3 = new Online_Shop.Resources.RoundControl();
-            this.roundControl2 = new Online_Shop.Resources.RoundControl();
-            this.roundControl1 = new Online_Shop.Resources.RoundControl();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.mainPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.profileBut = new Online_Shop.Resources.RoundControl();
+            this.cartBut = new Online_Shop.Resources.RoundControl();
+            this.roundControl3 = new Online_Shop.Resources.RoundControl();
+            this.categoryBut = new Online_Shop.Resources.RoundControl();
+            this.menuBut = new Online_Shop.Resources.RoundControl();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.mainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.panel1.Controls.Add(this.roundControl5);
-            this.panel1.Controls.Add(this.roundControl4);
+            this.panel1.Controls.Add(this.profileBut);
+            this.panel1.Controls.Add(this.cartBut);
             this.panel1.Controls.Add(this.roundControl3);
-            this.panel1.Controls.Add(this.roundControl2);
-            this.panel1.Controls.Add(this.roundControl1);
+            this.panel1.Controls.Add(this.categoryBut);
+            this.panel1.Controls.Add(this.menuBut);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -61,49 +64,111 @@ namespace Online_Shop
             this.panel1.Size = new System.Drawing.Size(255, 657);
             this.panel1.TabIndex = 0;
             // 
-            // roundControl5
+            // label1
             // 
-            this.roundControl5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl5.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl5.BorderSize = 1;
-            this.roundControl5.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl5.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl5.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl5.ButtonHighlightForeColor = System.Drawing.Color.White;
-            this.roundControl5.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl5.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl5.ButtonPressedForeColor = System.Drawing.Color.White;
-            this.roundControl5.ButtonRoundRadius = 15;
-            this.roundControl5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundControl5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundControl5.ForeColor = System.Drawing.Color.White;
-            this.roundControl5.Location = new System.Drawing.Point(12, 405);
-            this.roundControl5.Name = "roundControl5";
-            this.roundControl5.Size = new System.Drawing.Size(222, 57);
-            this.roundControl5.TabIndex = 5;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(66, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(168, 28);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Онлайн Магазин";
             // 
-            // roundControl4
+            // pictureBox1
             // 
-            this.roundControl4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl4.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl4.BorderSize = 1;
-            this.roundControl4.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl4.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl4.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl4.ButtonHighlightForeColor = System.Drawing.Color.White;
-            this.roundControl4.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl4.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl4.ButtonPressedForeColor = System.Drawing.Color.White;
-            this.roundControl4.ButtonRoundRadius = 15;
-            this.roundControl4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundControl4.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundControl4.ForeColor = System.Drawing.Color.White;
-            this.roundControl4.Location = new System.Drawing.Point(12, 342);
-            this.roundControl4.Name = "roundControl4";
-            this.roundControl4.Size = new System.Drawing.Size(222, 57);
-            this.roundControl4.TabIndex = 4;
+            this.pictureBox1.Image = global::Online_Shop.Properties.Resources.image;
+            this.pictureBox1.Location = new System.Drawing.Point(22, 35);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(255, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(967, 54);
+            this.panel2.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Online_Shop.Properties.Resources.UserImage;
+            this.pictureBox2.Location = new System.Drawing.Point(910, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
+            // mainPanel
+            // 
+            this.mainPanel.Controls.Add(this.button1);
+            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPanel.Location = new System.Drawing.Point(255, 54);
+            this.mainPanel.Name = "mainPanel";
+            this.mainPanel.Size = new System.Drawing.Size(967, 603);
+            this.mainPanel.TabIndex = 2;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(255, 148);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // profileBut
+            // 
+            this.profileBut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.profileBut.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.profileBut.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.profileBut.BorderSize = 1;
+            this.profileBut.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.profileBut.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.profileBut.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.profileBut.ButtonHighlightForeColor = System.Drawing.Color.White;
+            this.profileBut.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.profileBut.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.profileBut.ButtonPressedForeColor = System.Drawing.Color.White;
+            this.profileBut.ButtonRoundRadius = 15;
+            this.profileBut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.profileBut.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.profileBut.ForeColor = System.Drawing.Color.White;
+            this.profileBut.Location = new System.Drawing.Point(12, 405);
+            this.profileBut.Name = "profileBut";
+            this.profileBut.Size = new System.Drawing.Size(222, 57);
+            this.profileBut.TabIndex = 5;
+            this.profileBut.UseVisualStyleBackColor = false;
+            // 
+            // cartBut
+            // 
+            this.cartBut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.cartBut.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.cartBut.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.cartBut.BorderSize = 1;
+            this.cartBut.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.cartBut.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.cartBut.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.cartBut.ButtonHighlightForeColor = System.Drawing.Color.White;
+            this.cartBut.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.cartBut.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.cartBut.ButtonPressedForeColor = System.Drawing.Color.White;
+            this.cartBut.ButtonRoundRadius = 15;
+            this.cartBut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cartBut.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cartBut.ForeColor = System.Drawing.Color.White;
+            this.cartBut.Location = new System.Drawing.Point(12, 342);
+            this.cartBut.Name = "cartBut";
+            this.cartBut.Size = new System.Drawing.Size(222, 57);
+            this.cartBut.TabIndex = 4;
+            this.cartBut.UseVisualStyleBackColor = false;
             // 
             // roundControl3
             // 
@@ -126,91 +191,56 @@ namespace Online_Shop
             this.roundControl3.Name = "roundControl3";
             this.roundControl3.Size = new System.Drawing.Size(222, 57);
             this.roundControl3.TabIndex = 3;
+            this.roundControl3.UseVisualStyleBackColor = false;
             // 
-            // roundControl2
+            // categoryBut
             // 
-            this.roundControl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl2.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl2.BorderSize = 1;
-            this.roundControl2.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl2.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl2.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl2.ButtonHighlightForeColor = System.Drawing.Color.White;
-            this.roundControl2.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl2.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl2.ButtonPressedForeColor = System.Drawing.Color.White;
-            this.roundControl2.ButtonRoundRadius = 15;
-            this.roundControl2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundControl2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundControl2.ForeColor = System.Drawing.Color.White;
-            this.roundControl2.Location = new System.Drawing.Point(12, 216);
-            this.roundControl2.Name = "roundControl2";
-            this.roundControl2.Size = new System.Drawing.Size(222, 57);
-            this.roundControl2.TabIndex = 2;
+            this.categoryBut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.categoryBut.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.categoryBut.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.categoryBut.BorderSize = 1;
+            this.categoryBut.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.categoryBut.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.categoryBut.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.categoryBut.ButtonHighlightForeColor = System.Drawing.Color.White;
+            this.categoryBut.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.categoryBut.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.categoryBut.ButtonPressedForeColor = System.Drawing.Color.White;
+            this.categoryBut.ButtonRoundRadius = 15;
+            this.categoryBut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.categoryBut.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.categoryBut.ForeColor = System.Drawing.Color.White;
+            this.categoryBut.Location = new System.Drawing.Point(12, 216);
+            this.categoryBut.Name = "categoryBut";
+            this.categoryBut.Size = new System.Drawing.Size(222, 57);
+            this.categoryBut.TabIndex = 2;
+            this.categoryBut.UseVisualStyleBackColor = false;
+            this.categoryBut.Click += new System.EventHandler(this.categoryBut_Click);
             // 
-            // roundControl1
+            // menuBut
             // 
-            this.roundControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl1.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl1.BorderSize = 1;
-            this.roundControl1.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.roundControl1.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl1.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl1.ButtonHighlightForeColor = System.Drawing.Color.White;
-            this.roundControl1.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl1.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
-            this.roundControl1.ButtonPressedForeColor = System.Drawing.Color.White;
-            this.roundControl1.ButtonRoundRadius = 15;
-            this.roundControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundControl1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.roundControl1.ForeColor = System.Drawing.Color.White;
-            this.roundControl1.Location = new System.Drawing.Point(12, 153);
-            this.roundControl1.Name = "roundControl1";
-            this.roundControl1.Size = new System.Drawing.Size(222, 57);
-            this.roundControl1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(66, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Онлайн Магазин";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(255, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(967, 54);
-            this.panel2.TabIndex = 1;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Online_Shop.Properties.Resources.UserImage;
-            this.pictureBox2.Location = new System.Drawing.Point(910, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Online_Shop.Properties.Resources.image;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 35);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.menuBut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.menuBut.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.menuBut.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.menuBut.BorderSize = 1;
+            this.menuBut.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.menuBut.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.menuBut.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.menuBut.ButtonHighlightForeColor = System.Drawing.Color.White;
+            this.menuBut.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.menuBut.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.menuBut.ButtonPressedForeColor = System.Drawing.Color.White;
+            this.menuBut.ButtonRoundRadius = 15;
+            this.menuBut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.menuBut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menuBut.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.menuBut.ForeColor = System.Drawing.Color.White;
+            this.menuBut.Location = new System.Drawing.Point(12, 153);
+            this.menuBut.Name = "menuBut";
+            this.menuBut.Size = new System.Drawing.Size(222, 57);
+            this.menuBut.TabIndex = 1;
+            this.menuBut.UseVisualStyleBackColor = false;
+            this.menuBut.Click += new System.EventHandler(this.menuBut_Load);
             // 
             // Form1
             // 
@@ -218,6 +248,7 @@ namespace Online_Shop
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(1222, 657);
+            this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -225,9 +256,10 @@ namespace Online_Shop
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.mainPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -237,13 +269,15 @@ namespace Online_Shop
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private Resources.RoundControl roundControl1;
-        private Resources.RoundControl roundControl5;
-        private Resources.RoundControl roundControl4;
+        private Resources.RoundControl menuBut;
+        private Resources.RoundControl profileBut;
+        private Resources.RoundControl cartBut;
         private Resources.RoundControl roundControl3;
-        private Resources.RoundControl roundControl2;
+        private Resources.RoundControl categoryBut;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel mainPanel;
+        private System.Windows.Forms.Button button1;
     }
 }
 

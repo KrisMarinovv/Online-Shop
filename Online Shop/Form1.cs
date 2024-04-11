@@ -15,11 +15,23 @@ namespace Online_Shop
         public Form1()
         {
             InitializeComponent();
-            roundControl1.Text = "Меню";
-            roundControl2.Text = "Категории";
+            menuBut.Text = "Меню";
+            categoryBut.Text = "Категории";
             roundControl3.Text = "Hoome";
-            roundControl4.Text = "Количка";
-            roundControl5.Text = "Профил";
+            cartBut.Text = "Количка";
+            profileBut.Text = "Профил";
+        }
+
+        private void loadform(object Form)
+        {
+            if (this.mainPanel.Controls.Count > 0)
+                this.mainPanel.Controls.RemoveAt(0);
+            Form f = Form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.mainPanel.Controls.Add(f);
+            this.mainPanel.Tag = f;
+            f.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -30,6 +42,27 @@ namespace Online_Shop
         private void roundedButton1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void categoryBut_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuBut_Load(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        void categoryBut_Click(object sender, EventArgs e)
+        {
+            Button btn = sender as Button;
+            MessageBox.Show("sss");
         }
     }
 }

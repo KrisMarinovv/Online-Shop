@@ -35,3 +35,40 @@ C:\Users\obich\source\repos\Online Shop\Online Shop\obj\Debug\Online Shop.exe
 C:\Users\obich\source\repos\Online Shop\Online Shop\obj\Debug\Online Shop.pdb
 C:\Users\obich\source\repos\Online Shop\Online Shop\obj\Debug\Online Shop.csproj.AssemblyReference.cache
 C:\Users\obich\source\repos\Online Shop\Online Shop\obj\Debug\Online_Shop.CategoryForm.resources
+D:\Projects\Online-Shop\Online Shop\bin\Debug\Online Shop.exe.config
+D:\Projects\Online-Shop\Online Shop\bin\Debug\Online Shop.exe
+D:\Projects\Online-Shop\Online Shop\bin\Debug\Online Shop.pdb
+D:\Projects\Online-Shop\Online Shop\bin\Debug\Bunifu.Licensing.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\RestSharp.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Buffers.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.CodeDom.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Memory.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Numerics.Vectors.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Text.Encodings.Web.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Text.Json.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.ValueTuple.dll
+D:\Projects\Online-Shop\Online Shop\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\RestSharp.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Buffers.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.CodeDom.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Memory.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Numerics.Vectors.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Text.Encodings.Web.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Text.Json.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projects\Online-Shop\Online Shop\bin\Debug\System.ValueTuple.xml
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.csproj.AssemblyReference.cache
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.CategoryForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.Form1.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.Properties.Resources.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.csproj.GenerateResource.cache
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.csproj.CoreCompileInputs.cache
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.csproj.CopyComplete
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.exe
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.pdb

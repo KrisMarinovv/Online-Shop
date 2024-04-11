@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Online_Shop.Resources
 {
-    public partial class RoundControl : UserControl
+    public partial class RoundControl : Button
     {
         private int m_BorderSize = 2;
         private int m_ButtonRoundRadius = 15;
@@ -63,7 +63,6 @@ namespace Online_Shop.Resources
             }
         }
 
-        // Set Max = 44, Min = 1 to avoid quirks and exceptions
         public int ButtonRoundRadius
         {
             get => m_ButtonRoundRadius;
@@ -84,7 +83,6 @@ namespace Online_Shop.Resources
             }
         }
 
-        // You should Invalidate the Parent also when these change
         public Color BorderColor { get; set; } = Color.Tomato;
         public Color BackColor2 { get; set; } = Color.Tomato;
 
