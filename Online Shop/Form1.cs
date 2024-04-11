@@ -17,7 +17,7 @@ namespace Online_Shop
             InitializeComponent();
             roundControl1.Text = "Меню";
             roundControl2.Text = "Категории";
-            roundControl3.Text = "Home";
+            roundControl3.Text = "Hoome";
             roundControl4.Text = "Количка";
             roundControl5.Text = "Профил";
         }
