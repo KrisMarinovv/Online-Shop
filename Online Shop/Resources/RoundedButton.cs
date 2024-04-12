@@ -17,6 +17,7 @@ namespace Online_Shop.Resources
         private bool IsHighlighted = false;
         private bool IsPressed = false;
 
+
         public RoundControl()
         {
             SetStyle(ControlStyles.Opaque |

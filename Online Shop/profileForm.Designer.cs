@@ -1,7 +1,7 @@
 ﻿
 namespace Online_Shop
 {
-    partial class CategoryForm
+    partial class profileForm
     {
         /// <summary>
         /// Required designer variable.
@@ -35,21 +35,23 @@ namespace Online_Shop
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(320, 195);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(449, 251);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 39);
+            this.label1.Size = new System.Drawing.Size(161, 31);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Category";
+            this.label1.Text = "Profile Form";
             // 
-            // CategoryForm
+            // profileForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(233)))));
+            this.ClientSize = new System.Drawing.Size(950, 563);
             this.Controls.Add(this.label1);
-            this.Name = "CategoryForm";
-            this.Text = "CategoryForm";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "profileForm";
+            this.Text = "profileForm";
             this.ResumeLayout(false);
             this.PerformLayout();
 

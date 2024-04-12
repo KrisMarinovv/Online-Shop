@@ -64,11 +64,15 @@ D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Text.Json.xml
 D:\Projects\Online-Shop\Online Shop\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Projects\Online-Shop\Online Shop\bin\Debug\System.ValueTuple.xml
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.csproj.AssemblyReference.cache
-D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.CategoryForm.resources
-D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.Form1.resources
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.Properties.Resources.resources
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.csproj.GenerateResource.cache
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.csproj.CoreCompileInputs.cache
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.csproj.CopyComplete
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.exe
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.pdb
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.loginForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.profileForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.mainForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.productsForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.servicesForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.ShopItem.resources
