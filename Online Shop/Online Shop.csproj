@@ -89,11 +89,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="productsForm.cs">
+    <Compile Include="anglesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="productsForm.Designer.cs">
-      <DependentUpon>productsForm.cs</DependentUpon>
+    <Compile Include="anglesForm.Designer.cs">
+      <DependentUpon>anglesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="drillForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="drillForm.Designer.cs">
+      <DependentUpon>drillForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jigsawForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jigsawForm.Designer.cs">
+      <DependentUpon>jigsawForm.cs</DependentUpon>
     </Compile>
     <Compile Include="mainForm.cs">
       <SubType>Form</SubType>
@@ -106,6 +118,12 @@
     </Compile>
     <Compile Include="loginForm.Designer.cs">
       <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="productsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="productsForm.Designer.cs">
+      <DependentUpon>productsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -135,14 +153,23 @@
     <Compile Include="ShopItem.Designer.cs">
       <DependentUpon>ShopItem.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="productsForm.resx">
-      <DependentUpon>productsForm.cs</DependentUpon>
+    <EmbeddedResource Include="anglesForm.resx">
+      <DependentUpon>anglesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="drillForm.resx">
+      <DependentUpon>drillForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jigsawForm.resx">
+      <DependentUpon>jigsawForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainForm.resx">
       <DependentUpon>mainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loginForm.resx">
       <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="productsForm.resx">
+      <DependentUpon>productsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="servicesForm.resx">
       <DependentUpon>servicesForm.cs</DependentUpon>
@@ -198,6 +225,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jigsaw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bor1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartDark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angle3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jigsaw1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jigsaw2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\worker.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,6 +13,10 @@ namespace Online_Shop
     public partial class mainForm : Form
     {
         private profileForm ProfileFormInstance;
+        private drillForm DrillsFormInstance;
+        private anglesForm AnglesFormInstance;
+        private jigsawForm JigsawsFormInstance;
+
         public mainForm()
         {
             InitializeComponent();
@@ -41,7 +45,66 @@ namespace Online_Shop
             ProfileFormInstance.Show();
             ProfileFormInstance.BringToFront();
         }
+        public void ShowDrillsForm()
+        {
+            foreach (Control control in mainPanel.Controls)
+            {
+                mainPanel.Controls.Remove(control);
+                control.Dispose();
+            }
 
+            if (DrillsFormInstance != null && !DrillsFormInstance.IsDisposed)
+            {
+                DrillsFormInstance.Close();
+            }
+
+            DrillsFormInstance = new drillForm();
+            DrillsFormInstance.TopLevel = false;
+            mainPanel.Controls.Add(DrillsFormInstance);
+            DrillsFormInstance.Dock = DockStyle.Fill;
+            DrillsFormInstance.Show();
+            DrillsFormInstance.BringToFront();
+        }
+        public void ShowAnglesForm()
+        {
+            foreach (Control control in mainPanel.Controls)
+            {
+                mainPanel.Controls.Remove(control);
+                control.Dispose();
+            }
+
+            if (AnglesFormInstance != null && !AnglesFormInstance.IsDisposed)
+            {
+                AnglesFormInstance.Close();
+            }
+
+            AnglesFormInstance = new anglesForm();
+            AnglesFormInstance.TopLevel = false;
+            mainPanel.Controls.Add(AnglesFormInstance);
+            AnglesFormInstance.Dock = DockStyle.Fill;
+            AnglesFormInstance.Show();
+            AnglesFormInstance.BringToFront();
+        }
+        public void ShowJigsawsForm()
+        {
+            foreach (Control control in mainPanel.Controls)
+            {
+                mainPanel.Controls.Remove(control);
+                control.Dispose();
+            }
+
+            if (JigsawsFormInstance != null && !JigsawsFormInstance.IsDisposed)
+            {
+                JigsawsFormInstance.Close();
+            }
+
+            JigsawsFormInstance = new jigsawForm();
+            JigsawsFormInstance.TopLevel = false;
+            mainPanel.Controls.Add(JigsawsFormInstance);
+            JigsawsFormInstance.Dock = DockStyle.Fill;
+            JigsawsFormInstance.Show();
+            JigsawsFormInstance.BringToFront();
+        }
         private void loadform(object Form)
         {
             foreach (Control control in mainPanel.Controls)
@@ -80,7 +143,7 @@ namespace Online_Shop
 
         void productsBut_Click(object sender, EventArgs e)
         {
-            loadform(new productsForm());
+            loadform(new productsForm(this));
         }
 
         private void closeBut_Click(object sender, EventArgs e)

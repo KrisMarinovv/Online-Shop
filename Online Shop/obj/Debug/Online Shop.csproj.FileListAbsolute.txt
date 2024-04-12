@@ -73,6 +73,9 @@ D:\Projects\Online-Shop\Online Shop\obj\Debug\Online Shop.pdb
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.loginForm.resources
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.profileForm.resources
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.mainForm.resources
-D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.productsForm.resources
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.servicesForm.resources
 D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.ShopItem.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.productsForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.drillForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.anglesForm.resources
+D:\Projects\Online-Shop\Online Shop\obj\Debug\Online_Shop.jigsawForm.resources

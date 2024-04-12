@@ -12,9 +12,29 @@ namespace Online_Shop
 {
     public partial class productsForm : Form
     {
-        public productsForm()
+        private mainForm MainFormInstance;
+        public productsForm(mainForm mainFormInstance)
         {
             InitializeComponent();
+            MainFormInstance = mainFormInstance;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            MainFormInstance.ShowDrillsForm();
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MainFormInstance.ShowAnglesForm();
+            this.Close();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            MainFormInstance.ShowJigsawsForm();
+            this.Close();
         }
     }
 }
