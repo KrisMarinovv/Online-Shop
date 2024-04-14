@@ -12,9 +12,17 @@ namespace Online_Shop
 {
     public partial class servicesForm : Form
     {
-        public servicesForm()
+        private mainForm MainFormInstance;
+        public servicesForm(mainForm mainFormInstance)
         {
             InitializeComponent();
+            MainFormInstance = mainFormInstance;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            MainFormInstance.items += 1;
+            MainFormInstance.UpdateItemsLabel();
         }
     }
 }

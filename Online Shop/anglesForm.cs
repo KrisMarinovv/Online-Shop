@@ -12,9 +12,30 @@ namespace Online_Shop
 {
     public partial class anglesForm : Form
     {
-        public anglesForm()
+        private mainForm MainFormInstance;
+
+        public anglesForm(mainForm mainFormInstance)
         {
             InitializeComponent();
+            MainFormInstance = mainFormInstance;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            MainFormInstance.items += 1;
+            MainFormInstance.UpdateItemsLabel();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            MainFormInstance.items += 1;
+            MainFormInstance.UpdateItemsLabel();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            MainFormInstance.items += 1;
+            MainFormInstance.UpdateItemsLabel();
         }
     }
 }

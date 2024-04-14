@@ -30,23 +30,26 @@ namespace Online_Shop
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.mainPanel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.closeBut = new Online_Shop.Resources.RoundControl();
             this.profileBut = new Online_Shop.Resources.RoundControl();
             this.cartBut = new Online_Shop.Resources.RoundControl();
             this.roundControl3 = new Online_Shop.Resources.RoundControl();
             this.productsBut = new Online_Shop.Resources.RoundControl();
             this.servicesBut = new Online_Shop.Resources.RoundControl();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.closeBut = new Online_Shop.Resources.RoundControl();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.mainPanel = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.mainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -64,6 +67,120 @@ namespace Online_Shop
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(255, 657);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(66, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(168, 28);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Онлайн Магазин";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.pictureBox3);
+            this.panel2.Controls.Add(this.closeBut);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(255, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(967, 54);
+            this.panel2.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(23, 17);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(18, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "0";
+            // 
+            // mainPanel
+            // 
+            this.mainPanel.Controls.Add(this.label2);
+            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPanel.Location = new System.Drawing.Point(255, 54);
+            this.mainPanel.Name = "mainPanel";
+            this.mainPanel.Size = new System.Drawing.Size(967, 603);
+            this.mainPanel.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.ForeColor = System.Drawing.Color.DarkGray;
+            this.label2.Location = new System.Drawing.Point(257, 225);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(483, 86);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Добре Дошли!";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Online_Shop.Properties.Resources.cart;
+            this.pictureBox3.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Online_Shop.Properties.Resources.UserImage;
+            this.pictureBox2.Location = new System.Drawing.Point(872, 6);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Online_Shop.Properties.Resources.image;
+            this.pictureBox1.Location = new System.Drawing.Point(22, 35);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // closeBut
+            // 
+            this.closeBut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.closeBut.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.closeBut.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.closeBut.BorderSize = 0;
+            this.closeBut.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.closeBut.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.closeBut.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.closeBut.ButtonHighlightForeColor = System.Drawing.Color.White;
+            this.closeBut.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.closeBut.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.closeBut.ButtonPressedForeColor = System.Drawing.Color.White;
+            this.closeBut.ButtonRoundRadius = 15;
+            this.closeBut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.closeBut.FlatAppearance.BorderSize = 0;
+            this.closeBut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.closeBut.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.closeBut.ForeColor = System.Drawing.Color.White;
+            this.closeBut.Location = new System.Drawing.Point(923, 6);
+            this.closeBut.Name = "closeBut";
+            this.closeBut.Size = new System.Drawing.Size(41, 42);
+            this.closeBut.TabIndex = 6;
+            this.closeBut.Text = "X";
+            this.closeBut.UseVisualStyleBackColor = false;
+            this.closeBut.Click += new System.EventHandler(this.closeBut_Click);
             // 
             // profileBut
             // 
@@ -117,6 +234,7 @@ namespace Online_Shop
             this.cartBut.TabIndex = 4;
             this.cartBut.Text = "Количка";
             this.cartBut.UseVisualStyleBackColor = false;
+            this.cartBut.Click += new System.EventHandler(this.cartBut_Click);
             // 
             // roundControl3
             // 
@@ -198,97 +316,6 @@ namespace Online_Shop
             this.servicesBut.UseVisualStyleBackColor = false;
             this.servicesBut.Click += new System.EventHandler(this.servicesBut_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15F, System.Drawing.FontStyle.Bold);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(66, 41);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Онлайн Магазин";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Online_Shop.Properties.Resources.image;
-            this.pictureBox1.Location = new System.Drawing.Point(22, 35);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.panel2.Controls.Add(this.closeBut);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(255, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(967, 54);
-            this.panel2.TabIndex = 1;
-            // 
-            // closeBut
-            // 
-            this.closeBut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.closeBut.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.closeBut.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.closeBut.BorderSize = 0;
-            this.closeBut.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.closeBut.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.closeBut.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.closeBut.ButtonHighlightForeColor = System.Drawing.Color.White;
-            this.closeBut.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.closeBut.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.closeBut.ButtonPressedForeColor = System.Drawing.Color.White;
-            this.closeBut.ButtonRoundRadius = 15;
-            this.closeBut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.closeBut.FlatAppearance.BorderSize = 0;
-            this.closeBut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.closeBut.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.closeBut.ForeColor = System.Drawing.Color.White;
-            this.closeBut.Location = new System.Drawing.Point(923, 6);
-            this.closeBut.Name = "closeBut";
-            this.closeBut.Size = new System.Drawing.Size(41, 42);
-            this.closeBut.TabIndex = 6;
-            this.closeBut.Text = "X";
-            this.closeBut.UseVisualStyleBackColor = false;
-            this.closeBut.Click += new System.EventHandler(this.closeBut_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Online_Shop.Properties.Resources.UserImage;
-            this.pictureBox2.Location = new System.Drawing.Point(872, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // mainPanel
-            // 
-            this.mainPanel.Controls.Add(this.label2);
-            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(255, 54);
-            this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(967, 603);
-            this.mainPanel.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.ForeColor = System.Drawing.Color.DarkGray;
-            this.label2.Location = new System.Drawing.Point(257, 225);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(483, 86);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Добре Дошли!";
-            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -304,11 +331,13 @@ namespace Online_Shop
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel2.PerformLayout();
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -328,6 +357,8 @@ namespace Online_Shop
         private System.Windows.Forms.Panel mainPanel;
         private Resources.RoundControl closeBut;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

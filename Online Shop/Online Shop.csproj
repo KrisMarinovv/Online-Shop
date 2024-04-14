@@ -95,6 +95,12 @@
     <Compile Include="anglesForm.Designer.cs">
       <DependentUpon>anglesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="cartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cartForm.Designer.cs">
+      <DependentUpon>cartForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="drillForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Resources\ItemPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Resources\ItemPanel.Designer.cs">
+      <DependentUpon>ItemPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="servicesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -147,14 +159,11 @@
     <Compile Include="Resources\RoundedButton.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ShopItem.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ShopItem.Designer.cs">
-      <DependentUpon>ShopItem.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="anglesForm.resx">
       <DependentUpon>anglesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cartForm.resx">
+      <DependentUpon>cartForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="drillForm.resx">
       <DependentUpon>drillForm.cs</DependentUpon>
@@ -171,6 +180,9 @@
     <EmbeddedResource Include="productsForm.resx">
       <DependentUpon>productsForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ItemPanel.resx">
+      <DependentUpon>ItemPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="servicesForm.resx">
       <DependentUpon>servicesForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,9 +193,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ShopItem.resx">
-      <DependentUpon>ShopItem.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

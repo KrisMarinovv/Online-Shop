@@ -17,14 +17,20 @@ namespace Online_Shop
         private anglesForm AnglesFormInstance;
         private jigsawForm JigsawsFormInstance;
 
+        public int items { get; set; }
         public mainForm()
         {
             InitializeComponent();
+            items = 0;
+            label3.Text = items.ToString();
         }
 
         public string username { get; set; }
 
-
+        public void UpdateItemsLabel()
+        {
+            label3.Text = items.ToString();
+        }
         public void ShowProfileForm()
         {
             foreach (Control control in mainPanel.Controls)
@@ -58,7 +64,7 @@ namespace Online_Shop
                 DrillsFormInstance.Close();
             }
 
-            DrillsFormInstance = new drillForm();
+            DrillsFormInstance = new drillForm(this);
             DrillsFormInstance.TopLevel = false;
             mainPanel.Controls.Add(DrillsFormInstance);
             DrillsFormInstance.Dock = DockStyle.Fill;
@@ -78,7 +84,7 @@ namespace Online_Shop
                 AnglesFormInstance.Close();
             }
 
-            AnglesFormInstance = new anglesForm();
+            AnglesFormInstance = new anglesForm(this);
             AnglesFormInstance.TopLevel = false;
             mainPanel.Controls.Add(AnglesFormInstance);
             AnglesFormInstance.Dock = DockStyle.Fill;
@@ -98,7 +104,7 @@ namespace Online_Shop
                 JigsawsFormInstance.Close();
             }
 
-            JigsawsFormInstance = new jigsawForm();
+            JigsawsFormInstance = new jigsawForm(this);
             JigsawsFormInstance.TopLevel = false;
             mainPanel.Controls.Add(JigsawsFormInstance);
             JigsawsFormInstance.Dock = DockStyle.Fill;
@@ -138,7 +144,7 @@ namespace Online_Shop
 
         private void servicesBut_Click(object sender, EventArgs e)
         {
-            loadform(new servicesForm());
+            loadform(new servicesForm(this));
         }
 
         void productsBut_Click(object sender, EventArgs e)
@@ -166,6 +172,12 @@ namespace Online_Shop
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void cartBut_Click(object sender, EventArgs e)
+        {
+            cartForm cartFrm = new cartForm();
+            cartFrm.ShowDialog();
         }
     }
 }
