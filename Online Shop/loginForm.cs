@@ -54,7 +54,7 @@ namespace Online_Shop
 
         private void loginBut_Click(object sender, EventArgs e)
         {
-            if (true)
+            if (txtUsername.Text == "admin" && txtPassword.Text == "admin")
             {
                 mainForm mainfrm = new mainForm();
                 mainfrm.username = txtUsername.Text; 
@@ -63,7 +63,9 @@ namespace Online_Shop
                 }
             else
             {
-                MessageBox.Show("Login failed. Please try again.");
+                txtUsername.Clear();
+                txtPassword.Clear();
+                txtUsername.Focus();
             }
         }
     }

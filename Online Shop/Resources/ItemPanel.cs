@@ -17,6 +17,8 @@ namespace Online_Shop.Resources
             InitializeComponent();
             nameLbl.Text = itemName;
             priceLbl.Text = itemPrice.ToString("C");
+            this.AutoSize = true;
+            this.Visible = true;
         }
 
         private void ItemPanel_Load(object sender, EventArgs e)

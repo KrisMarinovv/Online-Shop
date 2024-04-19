@@ -39,9 +39,11 @@ namespace Online_Shop.Resources
             // 
             // itemPic
             // 
+            this.itemPic.Image = global::Online_Shop.Properties.Resources.worker;
             this.itemPic.Location = new System.Drawing.Point(3, 3);
             this.itemPic.Name = "itemPic";
             this.itemPic.Size = new System.Drawing.Size(153, 94);
+            this.itemPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.itemPic.TabIndex = 0;
             this.itemPic.TabStop = false;
             // 

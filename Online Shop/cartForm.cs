@@ -17,8 +17,46 @@ namespace Online_Shop
         public cartForm()
         {
             InitializeComponent();
-
             flowLayoutPanel1.FlowDirection = FlowDirection.TopDown;
+            AddItemPanel();
+        }
+
+        public void AddItemPanel()
+        {
+            try
+            {
+                // Create an ItemPanel instance
+                ItemPanel itemPanel = new ItemPanel("Item Name", 123.45m); // Example values
+
+                // Add the ItemPanel to the UI
+                flowLayoutPanel1.Controls.Add(itemPanel);
+
+                // Get the index of the ItemPanel within the flowLayoutPanel1.Controls collection
+                int index = flowLayoutPanel1.Controls.IndexOf(itemPanel);
+
+                // Display the index using MessageBox (you can also use Console.WriteLine for debugging)
+                MessageBox.Show("ItemPanel index: " + index);
+
+                // Check if the ItemPanel is added to the flowLayoutPanel1.Controls collection
+                if (flowLayoutPanel1.Controls.Contains(itemPanel))
+                {
+                    // ItemPanel is added successfully
+                    MessageBox.Show("ItemPanel added successfully!");
+                }
+                else
+                {
+                    // ItemPanel is not added
+                    MessageBox.Show("Failed to add ItemPanel to flowLayoutPanel1!");
+                }
+
+                // Refresh the layout
+                flowLayoutPanel1.Refresh();
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions
+                MessageBox.Show("Error adding ItemPanel: " + ex.Message);
+            }
         }
 
         private void closeBut_Click(object sender, EventArgs e)
@@ -28,7 +66,7 @@ namespace Online_Shop
 
         private void cartForm_Load(object sender, EventArgs e)
         {
-
+            AddItemPanel();
         }
     }
 }

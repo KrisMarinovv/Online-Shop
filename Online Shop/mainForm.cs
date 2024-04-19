@@ -179,5 +179,17 @@ namespace Online_Shop
             cartForm cartFrm = new cartForm();
             cartFrm.ShowDialog();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            cartForm cartFrm = new cartForm();
+            cartFrm.ShowDialog();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            cartForm cartFrm = new cartForm();
+            cartFrm.ShowDialog();
+        }
     }
 }

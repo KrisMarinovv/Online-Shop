@@ -29,22 +29,35 @@ namespace Online_Shop
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.closeBut = new Online_Shop.Resources.RoundControl();
+            this.topPanel = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel2.SuspendLayout();
+            this.closeBut = new Online_Shop.Resources.RoundControl();
+            this.botPanel = new System.Windows.Forms.Panel();
+            this.buyBut = new Online_Shop.Resources.RoundControl();
+            this.topPanel.SuspendLayout();
+            this.botPanel.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel2
+            // topPanel
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
-            this.panel2.Controls.Add(this.flowLayoutPanel1);
-            this.panel2.Controls.Add(this.closeBut);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(966, 43);
-            this.panel2.TabIndex = 1;
+            this.topPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.topPanel.Controls.Add(this.flowLayoutPanel1);
+            this.topPanel.Controls.Add(this.closeBut);
+            this.topPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.topPanel.Location = new System.Drawing.Point(0, 0);
+            this.topPanel.Name = "topPanel";
+            this.topPanel.Size = new System.Drawing.Size(966, 43);
+            this.topPanel.TabIndex = 1;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.AutoSize = true;
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 49);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(966, 469);
+            this.flowLayoutPanel1.TabIndex = 2;
             // 
             // closeBut
             // 
@@ -73,14 +86,41 @@ namespace Online_Shop
             this.closeBut.UseVisualStyleBackColor = false;
             this.closeBut.Click += new System.EventHandler(this.closeBut_Click);
             // 
-            // flowLayoutPanel1
+            // botPanel
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 49);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(966, 498);
-            this.flowLayoutPanel1.TabIndex = 2;
-            this.flowLayoutPanel1.WrapContents = false;
+            this.botPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.botPanel.Controls.Add(this.buyBut);
+            this.botPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.botPanel.Location = new System.Drawing.Point(0, 524);
+            this.botPanel.Name = "botPanel";
+            this.botPanel.Size = new System.Drawing.Size(966, 78);
+            this.botPanel.TabIndex = 2;
+            // 
+            // buyBut
+            // 
+            this.buyBut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.buyBut.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.buyBut.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.buyBut.BorderSize = 0;
+            this.buyBut.ButtonBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(162)))), ((int)(((byte)(227)))));
+            this.buyBut.ButtonHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.buyBut.ButtonHighlightColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.buyBut.ButtonHighlightForeColor = System.Drawing.Color.White;
+            this.buyBut.ButtonPressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.buyBut.ButtonPressedColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(209)))), ((int)(((byte)(222)))));
+            this.buyBut.ButtonPressedForeColor = System.Drawing.Color.White;
+            this.buyBut.ButtonRoundRadius = 15;
+            this.buyBut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buyBut.FlatAppearance.BorderSize = 0;
+            this.buyBut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buyBut.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buyBut.ForeColor = System.Drawing.Color.White;
+            this.buyBut.Location = new System.Drawing.Point(803, 16);
+            this.buyBut.Name = "buyBut";
+            this.buyBut.Size = new System.Drawing.Size(160, 44);
+            this.buyBut.TabIndex = 8;
+            this.buyBut.Text = "Поръчай";
+            this.buyBut.UseVisualStyleBackColor = false;
             // 
             // cartForm
             // 
@@ -88,19 +128,24 @@ namespace Online_Shop
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(246)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(966, 602);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.botPanel);
+            this.Controls.Add(this.topPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "cartForm";
             this.Text = "cartForm";
             this.Load += new System.EventHandler(this.cartForm_Load);
-            this.panel2.ResumeLayout(false);
+            this.topPanel.ResumeLayout(false);
+            this.topPanel.PerformLayout();
+            this.botPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel topPanel;
         private Resources.RoundControl closeBut;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Panel botPanel;
+        private Resources.RoundControl buyBut;
     }
 }

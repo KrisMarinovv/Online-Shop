@@ -73,9 +73,9 @@ namespace Online_Shop
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label7.Location = new System.Drawing.Point(3, 415);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(189, 21);
+            this.label7.Size = new System.Drawing.Size(122, 21);
             this.label7.TabIndex = 3;
-            this.label7.Text = "Цена:  9.99лв. - 49.99лв.";
+            this.label7.Text = "Цена:  49.99лв.";
             // 
             // panel2
             // 
